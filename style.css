@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+--White: hsl(0, 0%, 100%);
+--Light-gray: hsl(220, 15%, 55%);
+--Grayish-blue: hsl(220, 15%, 55%);
+--Dark-blue: hsl(218, 44%, 22%);
+}
+body{
+    background-color: var(--Light-gray);
+}
+.part{
+
+    background-color: white;
+    margin: 100px  auto;
+    width: 300px;
+    border: none;
+    padding: 20px;
+    border-radius: 10%;
+}
+
+.part img{
+    text-align: center;
+    width: 300px;
+    border-radius: 10px;
+    
+}
+.text{
+    font-size: 11px;
+    text-align: center;
+}
+.text p {font-size: 15px;
+}
